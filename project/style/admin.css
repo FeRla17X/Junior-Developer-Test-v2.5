@@ -1,0 +1,51 @@
+body{margin:0;background-color: #DBDBDB;user-select: none;}
+body input,button,select{outline: 0;border:0;border-radius: 3px;}
+.w3-lobster {
+  font-family: "Lobster", serif;
+  letter-spacing: 3px;
+}
+input,button,select:hover{
+  -webkit-box-shadow: 6px 3px 12px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 3px 12px -6px rgba(0,0,0,0.75);
+  box-shadow: 6px 3px 12px -6px rgba(0,0,0,0.75);
+  transition: 1s;
+}
+a{
+  position: absolute;
+  left: 1vw;
+  font-size: 1.4vw;
+  text-decoration: none;
+  color:#2196F3;
+}
+button{
+  position: absolute;
+  top:2vh;
+  right:2vw;
+}
+.add_product{
+  width:50vw;
+  margin-left: 26vw;
+  text-align: center;
+}
+.title{
+  color:black;
+  font-size:3vw;
+  font-family:bold;
+  text-align: center;
+}
+.add_product input::placeholder{font-size:1.7vw;}
+.add_product input{
+  font-size:1.2vw;
+  height:5.6vh;
+  width:20vw;
+  left:4vw;
+  margin-top:2vh;
+}
+.type_input{
+  display: none;
+}
+.error{
+  text-align:center;
+  font-size:2vw;
+  color:red;
+}

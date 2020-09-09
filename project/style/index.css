@@ -1,0 +1,46 @@
+body{
+  margin:0;
+  user-select: none;
+  background-color: #DBDBDB;
+  overflow: visible;
+}
+a{
+  position: absolute;
+  left: 1vw;
+  font-size: 1.4vw;
+  text-decoration: none;
+  color:#2196F3;
+}
+.w3-container{width:100vw;left:0;}
+button{
+  position: absolute;
+  right:2vw;
+  top:3vh;
+}
+select{
+  margin:3vh 10vw 0 0vw;
+  position: absolute;
+  height:6vh;
+}
+input,button,select:hover{
+  -webkit-box-shadow: 6px 3px 12px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 3px 12px -6px rgba(0,0,0,0.75);
+  box-shadow: 6px 3px 12px -6px rgba(0,0,0,0.75);
+  transition: 1s;
+}
+input[type="checkbox"]{margin:1vh 1vw 0 0;}
+.w3-lobster {
+  font-family: "Lobster", serif;
+  letter-spacing: 3px;
+}
+.box b{display: inline-block;margin-top:2%;}
+.box input{float:left;margin-left:3%;}
+.box{
+  float:left;
+  width:20vw;
+  height:38vh;
+  margin:5vh 0 0 4vw;
+  font-size:1.3vw;
+  text-align: center;
+  transition: 1s;
+}
